@@ -10,7 +10,7 @@
     "test:unit:watch": "vitest"
   },
   "devDependencies": {
-    "@playwright/test": "^1.53.0",
+    "@playwright/test": "1.47.0",
     "jsdom": "^25.0.0",
     "vitest": "^2.1.0"
   }
