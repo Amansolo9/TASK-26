@@ -109,11 +109,16 @@ Any other expected-response pair is documented inline in `docs/api-spec.md`.
 
 This script:
 
-- starts `docker compose` in the background
-- runs all Maven tests in a Dockerized Maven container (includes the true no-mock HTTP endpoint coverage suite that exercises every controller route)
+- starts `docker compose` in the background (wiping any prior MySQL volume to guarantee a clean Flyway run)
+- runs all Maven tests in a Dockerized Maven container (includes the true no-mock HTTP endpoint coverage suite that exercises every controller route, plus the `HttpContractTest` auth matrix / schema / validation / CSRF / HMAC contract suite)
 - runs the frontend unit test suite (Vitest) in a Dockerized Node container
-- runs the Playwright end-to-end suite inside the official Playwright container
 - stops the compose stack after tests
+
+Playwright E2E is intentionally opt-in — its container image is ~1.5 GB and the HTTP coverage achieved by the Maven suites already covers every controller route:
+
+```bash
+PHASES=maven,vitest,playwright ./run_test.sh
+```
 
 Keep the stack running after tests:
 

@@ -25,7 +25,12 @@ PLAYWRIGHT_IMAGE="mcr.microsoft.com/playwright:v1.47.0-jammy"
 M2_CACHE_VOLUME="${M2_CACHE_VOLUME:-lexibridge_m2_cache}"
 NPM_CACHE_VOLUME="${NPM_CACHE_VOLUME:-lexibridge_npm_cache}"
 KEEP_STACK_UP="${KEEP_STACK_UP:-false}"
-PHASES="${PHASES:-maven,vitest,playwright}"
+# Playwright is intentionally opt-in only: its Docker image is ~1.5 GB
+# (Chromium + Firefox + WebKit binaries) and would dominate wall-clock time
+# on cold CI runs. True no-mock HTTP coverage is already achieved by the
+# Maven FullEndpointCoverageTest + HttpContractTest suites; browser tests
+# add only thin walkthrough coverage. Run with PHASES=playwright to opt in.
+PHASES="${PHASES:-maven,vitest}"
 APP_HOST="${APP_HOST:-host.docker.internal}"
 APP_PORT="${APP_PORT:-8081}"
 DB_HOST_FOR_TESTS="${DB_HOST_FOR_TESTS:-host.docker.internal}"
