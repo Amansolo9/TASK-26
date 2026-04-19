@@ -1,0 +1,9 @@
+com/lexibridge/operations/integration/HttpContractTest$ResponseContract.class
+com/lexibridge/operations/integration/HttpContractTest$CsrfContract.class
+com/lexibridge/operations/integration/HttpContractTest.class
+com/lexibridge/operations/integration/GovernanceControlsIntegrationTest.class
+com/lexibridge/operations/integration/HttpContractTest$AuthMatrix.class
+com/lexibridge/operations/integration/HttpContractTest$ValidationContract.class
+com/lexibridge/operations/integration/HmacRotationWorkflowIntegrationTest.class
+com/lexibridge/operations/integration/FullEndpointCoverageTest.class
+com/lexibridge/operations/integration/HttpContractTest$HmacContract.class

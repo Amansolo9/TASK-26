@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.lexibridge.operations.web.ApiAuthorizationWebMvcTest
+-------------------------------------------------------------------------------
+Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.91 s -- in com.lexibridge.operations.web.ApiAuthorizationWebMvcTest

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.lexibridge.operations.integration.ComplianceAndWorkflowIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 14, Time elapsed: 0.002 s -- in com.lexibridge.operations.integration.ComplianceAndWorkflowIntegrationTest
