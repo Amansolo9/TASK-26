@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="18.527" tests="149" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="18.394" tests="149" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/java/openjdk/lib"/>
-    <property name="sun.java.command" value="/workspace/target/surefire/surefirebooter-20260419134310861_3.jar /workspace/target/surefire 2026-04-19T13-43-09_204-jvmRun1 surefire-20260419134310861_1tmp surefire_0-20260419134310861_2tmp"/>
+    <property name="sun.java.command" value="/workspace/target/surefire/surefirebooter-20260419140455402_3.jar /workspace/target/surefire 2026-04-19T14-04-53_389-jvmRun1 surefire-20260419140455402_1tmp surefire_0-20260419140455402_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspace/target/test-classes:/workspace/target/classes:/root/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.3.3/spring-boot-starter-web-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter/3.3.3/spring-boot-starter-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot/3.3.3/spring-boot-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.3/spring-boot-autoconfigure-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.3.3/spring-boot-starter-logging-3.3.3.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.5.7/logback-classic-1.5.7.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.5.7/logback-core-1.5.7.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.23.1/log4j-to-slf4j-2.23.1.jar:/root/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/root/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.3.3/spring-boot-starter-json-3.3.3.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.3.3/spring-boot-starter-tomcat-3.3.3.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.28/tomcat-embed-core-10.1.28.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.28/tomcat-embed-websocket-10.1.28.jar:/root/.m2/repository/org/springframework/spring-web/6.1.12/spring-web-6.1.12.jar:/root/.m2/repository/org/springframework/spring-beans/6.1.12/spring-beans-6.1.12.jar:/root/.m2/repository/org/springframework/spring-webmvc/6.1.12/spring-webmvc-6.1.12.jar:/root/.m2/repository/org/springframework/spring-context/6.1.12/spring-context-6.1.12.jar:/root/.m2/repository/org/springframework/spring-expression/6.1.12/spring-expression-6.1.12.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/3.3.3/spring-boot-starter-thymeleaf-3.3.3.jar:/root/.m2/repository/org/thymeleaf/thymeleaf-spring6/3.1.2.RELEASE/thymeleaf-spring6-3.1.2.RELEASE.jar:/root/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/root/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/root/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.3.3/spring-boot-starter-actuator-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.3.3/spring-boot-actuator-autoconfigure-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-actuator/3.3.3/spring-boot-actuator-3.3.3.jar:/root/.m2/repository/io/micrometer/micrometer-observation/1.13.3/micrometer-observation-1.13.3.jar:/root/.m2/repository/io/micrometer/micrometer-commons/1.13.3/micrometer-commons-1.13.3.jar:/root/.m2/repository/io/micrometer/micrometer-jakarta9/1.13.3/micrometer-jakarta9-1.13.3.jar:/root/.m2/repository/io/micrometer/micrometer-registry-prometheus/1.13.3/micrometer-registry-prometheus-1.13.3.jar:/root/.m2/repository/io/micrometer/micrometer-core/1.13.3/micrometer-core-1.13.3.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2.jar:/root/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/root/.m2/repository/io/prometheus/prometheus-metrics-core/1.2.1/prometheus-metrics-core-1.2.1.jar:/root/.m2/repository/io/prometheus/prometheus-metrics-model/1.2.1/prometheus-metrics-model-1.2.1.jar:/root/.m2/repository/io/prometheus/prometheus-metrics-config/1.2.1/prometheus-metrics-config-1.2.1.jar:/root/.m2/repository/io/prometheus/prometheus-metrics-tracer-common/1.2.1/prometheus-metrics-tracer-common-1.2.1.jar:/root/.m2/repository/io/prometheus/prometheus-metrics-exposition-formats/1.2.1/prometheus-metrics-exposition-formats-1.2.1.jar:/root/.m2/repository/io/prometheus/prometheus-metrics-shaded-protobuf/1.2.1/prometheus-metrics-shaded-protobuf-1.2.1.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.3.3/spring-boot-starter-data-jpa-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.3.3/spring-boot-starter-aop-3.3.3.jar:/root/.m2/repository/org/aspectj/aspectjweaver/1.9.22.1/aspectjweaver-1.9.22.1.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.3.3/spring-boot-starter-jdbc-3.3.3.jar:/root/.m2/repository/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/root/.m2/repository/org/springframework/spring-jdbc/6.1.12/spring-jdbc-6.1.12.jar:/root/.m2/repository/org/hibernate/orm/hibernate-core/6.5.2.Final/hibernate-core-6.5.2.Final.jar:/root/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/root/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/root/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/root/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/root/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/root/.m2/repository/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.14.19/byte-buddy-1.14.19.jar:/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/root/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/root/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/root/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/root/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/root/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/root/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/root/.m2/repository/org/springframework/data/spring-data-jpa/3.3.3/spring-data-jpa-3.3.3.jar:/root/.m2/repository/org/springframework/data/spring-data-commons/3.3.3/spring-data-commons-3.3.3.jar:/root/.m2/repository/org/springframework/spring-orm/6.1.12/spring-orm-6.1.12.jar:/root/.m2/repository/org/springframework/spring-tx/6.1.12/spring-tx-6.1.12.jar:/root/.m2/repository/org/springframework/spring-aspects/6.1.12/spring-aspects-6.1.12.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.3.3/spring-boot-starter-security-3.3.3.jar:/root/.m2/repository/org/springframework/spring-aop/6.1.12/spring-aop-6.1.12.jar:/root/.m2/repository/org/springframework/security/spring-security-config/6.3.3/spring-security-config-6.3.3.jar:/root/.m2/repository/org/springframework/security/spring-security-web/6.3.3/spring-security-web-6.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.3.3/spring-boot-starter-validation-3.3.3.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.28/tomcat-embed-el-10.1.28.jar:/root/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar:/root/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/root/.m2/repository/org/flywaydb/flyway-core/10.10.0/flyway-core-10.10.0.jar:/root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-toml/2.17.2/jackson-dataformat-toml-2.17.2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/root/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/root/.m2/repository/org/flywaydb/flyway-mysql/10.10.0/flyway-mysql-10.10.0.jar:/root/.m2/repository/org/apache/commons/commons-csv/1.11.0/commons-csv-1.11.0.jar:/root/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/root/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/root/.m2/repository/org/apache/poi/poi-ooxml/5.3.0/poi-ooxml-5.3.0.jar:/root/.m2/repository/org/apache/poi/poi/5.3.0/poi-5.3.0.jar:/root/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/root/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/root/.m2/repository/org/apache/poi/poi-ooxml-lite/5.3.0/poi-ooxml-lite-5.3.0.jar:/root/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar:/root/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/root/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/root/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/root/.m2/repository/com/google/zxing/core/3.5.3/core-3.5.3.jar:/root/.m2/repository/com/google/zxing/javase/3.5.3/javase-3.5.3.jar:/root/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/root/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar:/root/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.3.3/spring-boot-starter-test-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-test/3.3.3/spring-boot-test-3.3.3.jar:/root/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.3.3/spring-boot-test-autoconfigure-3.3.3.jar:/root/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/root/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/root/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/root/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/root/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/root/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.3/junit-jupiter-5.10.3.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.3/junit-jupiter-params-5.10.3.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.3/junit-jupiter-engine-5.10.3.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.jar:/root/.m2/repository/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar:/root/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/root/.m2/repository/org/mockito/mockito-junit-jupiter/5.11.0/mockito-junit-jupiter-5.11.0.jar:/root/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/root/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/root/.m2/repository/org/springframework/spring-core/6.1.12/spring-core-6.1.12.jar:/root/.m2/repository/org/springframework/spring-jcl/6.1.12/spring-jcl-6.1.12.jar:/root/.m2/repository/org/springframework/spring-test/6.1.12/spring-test-6.1.12.jar:/root/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/root/.m2/repository/org/springframework/security/spring-security-test/6.3.3/spring-security-test-6.3.3.jar:/root/.m2/repository/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3.jar:/root/.m2/repository/org/springframework/security/spring-security-crypto/6.3.3/spring-security-crypto-6.3.3.jar:/root/.m2/repository/org/testcontainers/junit-jupiter/1.19.8/junit-jupiter-1.19.8.jar:/root/.m2/repository/org/testcontainers/testcontainers/1.19.8/testcontainers-1.19.8.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/root/.m2/repository/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar:/root/.m2/repository/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar:/root/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/root/.m2/repository/com/github/docker-java/docker-java-transport-zerodep/3.3.6/docker-java-transport-zerodep-3.3.6.jar:/root/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/root/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/root/.m2/repository/org/testcontainers/mysql/1.19.8/mysql-1.19.8.jar:/root/.m2/repository/org/testcontainers/jdbc/1.19.8/jdbc-1.19.8.jar:/root/.m2/repository/org/testcontainers/database-commons/1.19.8/database-commons-1.19.8.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspace/target/surefire/surefirebooter-20260419134310861_3.jar"/>
+    <property name="surefire.real.class.path" value="/workspace/target/surefire/surefirebooter-20260419140455402_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6-LTS"/>
     <property name="user.name" value="root"/>
@@ -55,153 +55,153 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="contentApi_POST_itemMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.076"/>
-  <testcase name="paymentsApi_POST_splitPolicy" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.766"/>
-  <testcase name="adminApi_GET_status" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="adminApi_POST_usersUpdate" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.069"/>
-  <testcase name="adminApi_GET_traces" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
-  <testcase name="moderationApi_POST_cases" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.046"/>
-  <testcase name="leaveApi_GET_forms" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.021"/>
-  <testcase name="paymentsApi_POST_tenders" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.07"/>
-  <testcase name="adminApi_POST_usersRolesAssign" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.042"/>
-  <testcase name="adminApi_POST_deviceHmacCutover" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
-  <testcase name="paymentsPortal_GET_reconciliationRunExport" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="moderationPortal_GET_case" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
-  <testcase name="leavePortal_POST_requestAttachmentLookup" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.061"/>
-  <testcase name="bookingPortal_POST_reserve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.101"/>
-  <testcase name="bookingApi_POST_transition" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.043"/>
-  <testcase name="moderationApi_POST_communityComments" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.019"/>
+  <testcase name="contentApi_POST_itemMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.102"/>
+  <testcase name="paymentsApi_POST_splitPolicy" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="1.023"/>
+  <testcase name="adminApi_GET_status" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.019"/>
+  <testcase name="adminApi_POST_usersUpdate" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.076"/>
+  <testcase name="adminApi_GET_traces" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.034"/>
+  <testcase name="moderationApi_POST_cases" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.052"/>
+  <testcase name="leaveApi_GET_forms" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.024"/>
+  <testcase name="paymentsApi_POST_tenders" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.075"/>
+  <testcase name="adminApi_POST_usersRolesAssign" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.043"/>
+  <testcase name="adminApi_POST_deviceHmacCutover" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.021"/>
+  <testcase name="paymentsPortal_GET_reconciliationRunExport" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.028"/>
+  <testcase name="moderationPortal_GET_case" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.037"/>
+  <testcase name="leavePortal_POST_requestAttachmentLookup" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.075"/>
+  <testcase name="bookingPortal_POST_reserve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.102"/>
+  <testcase name="bookingApi_POST_transition" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.049"/>
+  <testcase name="moderationApi_POST_communityComments" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
   <testcase name="contentPortal_POST_itemPublish" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.063"/>
   <testcase name="leavePortal_POST_requestResubmit" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
-  <testcase name="adminApi_POST_webhooksDispatchByLocation" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="4.031"/>
-  <testcase name="bookingApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.033"/>
-  <testcase name="leaveApi_POST_formsDefinitionVersions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.037"/>
-  <testcase name="bookingPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
+  <testcase name="adminApi_POST_webhooksDispatchByLocation" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="4.029"/>
+  <testcase name="bookingApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
+  <testcase name="leaveApi_POST_formsDefinitionVersions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.021"/>
+  <testcase name="bookingPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.033"/>
   <testcase name="leavePortal_GET_attachmentDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.018"/>
-  <testcase name="adminApi_POST_usersRolesRemove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.034"/>
+  <testcase name="adminApi_POST_usersRolesRemove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.043"/>
   <testcase name="moderationPortal_POST_cases" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.036"/>
-  <testcase name="contentApi_POST_importsPreview" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.027"/>
-  <testcase name="moderationApi_GET_targetMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.018"/>
-  <testcase name="paymentsApi_POST_refundApprove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.041"/>
-  <testcase name="paymentsPortal_POST_exceptionReopen" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.064"/>
-  <testcase name="paymentsApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
-  <testcase name="leaveApi_POST_approvalsCorrection" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.038"/>
+  <testcase name="contentApi_POST_importsPreview" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.028"/>
+  <testcase name="moderationApi_GET_targetMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
+  <testcase name="paymentsApi_POST_refundApprove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.035"/>
+  <testcase name="paymentsPortal_POST_exceptionReopen" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.062"/>
+  <testcase name="paymentsApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
+  <testcase name="leaveApi_POST_approvalsCorrection" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.039"/>
   <testcase name="moderationApi_POST_qnaMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.027"/>
   <testcase name="adminApi_GET_users" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.018"/>
-  <testcase name="leaveApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
-  <testcase name="adminPortal_POST_webhooks" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.035"/>
-  <testcase name="moderationPortal_POST_reports" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.024"/>
-  <testcase name="moderationApi_POST_commentMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
-  <testcase name="bookingPortal_POST_transition" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
-  <testcase name="bookingPortal_POST_attachments" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.042"/>
-  <testcase name="bookingPortal_GET_qr" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.12"/>
-  <testcase name="adminPortal_POST_emailReveal" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.04"/>
-  <testcase name="moderationApi_POST_targetsComments" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
-  <testcase name="moderationApi_GET_qnaMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="leaveApi_GET_requestAttachmentDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
-  <testcase name="moderationApi_POST_communityQna" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
-  <testcase name="leavePortal_POST_formVersions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
-  <testcase name="leaveApi_POST_requestAttachment" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
-  <testcase name="contentApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
-  <testcase name="moderationPortal_POST_caseResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.028"/>
-  <testcase name="leavePortal_POST_requestAttachment" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.027"/>
-  <testcase name="paymentsPortal_POST_splitPolicy" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
-  <testcase name="moderationApi_GET_postMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="paymentsPortal_POST_refunds" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
-  <testcase name="adminApi_GET_webhookCanDeliver" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="adminApi_GET_deviceHmacKeys" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="bookingPortal_POST_noShowOverride" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.053"/>
-  <testcase name="bookingPortal_GET_print" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.035"/>
-  <testcase name="moderationApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
-  <testcase name="moderationPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="paymentsPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
-  <testcase name="moderationApi_POST_targetMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.03"/>
-  <testcase name="leaveApi_POST_requests" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.045"/>
-  <testcase name="paymentsApi_POST_exceptionsReopen" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.035"/>
-  <testcase name="contentApi_GET_exports" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.028"/>
-  <testcase name="getRoot" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
-  <testcase name="adminApi_POST_usersEmailReveal" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.03"/>
-  <testcase name="getPortalRoot" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.037"/>
-  <testcase name="contentPortal_POST_items" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.076"/>
-  <testcase name="contentPortal_POST_importsExecute" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
-  <testcase name="bookingPortal_POST_attendanceScan" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
-  <testcase name="bookingApi_POST_reserve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.067"/>
-  <testcase name="adminApi_POST_webhooksDispatchById" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.03"/>
-  <testcase name="moderationApi_GET_qnaMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.059"/>
-  <testcase name="bookingApi_POST_attachmentsUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
-  <testcase name="leaveApi_GET_formsDefinitions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.048"/>
-  <testcase name="moderationApi_GET_targetMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
-  <testcase name="paymentsApi_GET_reconciliationExceptions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.013"/>
-  <testcase name="leavePortal_POST_approvalApprove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
-  <testcase name="adminApi_POST_users" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.162"/>
-  <testcase name="paymentsPortal_POST_exceptionResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.056"/>
-  <testcase name="bookingApi_POST_reschedule" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.062"/>
-  <testcase name="contentApi_POST_items" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.045"/>
-  <testcase name="moderationApi_POST_caseMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.03"/>
-  <testcase name="paymentsApi_POST_refunds" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
-  <testcase name="adminApi_GET_webhooks" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
-  <testcase name="moderationApi_GET_reportsByReporter" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
-  <testcase name="adminPortal_POST_roleAssign" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.058"/>
+  <testcase name="leaveApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
+  <testcase name="adminPortal_POST_webhooks" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.03"/>
+  <testcase name="moderationPortal_POST_reports" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.027"/>
+  <testcase name="moderationApi_POST_commentMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
+  <testcase name="bookingPortal_POST_transition" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
+  <testcase name="bookingPortal_POST_attachments" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.046"/>
+  <testcase name="bookingPortal_GET_qr" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.174"/>
+  <testcase name="adminPortal_POST_emailReveal" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.045"/>
+  <testcase name="moderationApi_POST_targetsComments" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.019"/>
+  <testcase name="moderationApi_GET_qnaMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
+  <testcase name="leaveApi_GET_requestAttachmentDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="moderationApi_POST_communityQna" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.027"/>
+  <testcase name="leavePortal_POST_formVersions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
+  <testcase name="leaveApi_POST_requestAttachment" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
+  <testcase name="contentApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
+  <testcase name="moderationPortal_POST_caseResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
+  <testcase name="leavePortal_POST_requestAttachment" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.024"/>
+  <testcase name="paymentsPortal_POST_splitPolicy" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
+  <testcase name="moderationApi_GET_postMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="paymentsPortal_POST_refunds" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.039"/>
+  <testcase name="adminApi_GET_webhookCanDeliver" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
+  <testcase name="adminApi_GET_deviceHmacKeys" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
+  <testcase name="bookingPortal_POST_noShowOverride" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.058"/>
+  <testcase name="bookingPortal_GET_print" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
+  <testcase name="moderationApi_GET_summary" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
+  <testcase name="moderationPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
+  <testcase name="paymentsPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
+  <testcase name="moderationApi_POST_targetMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
+  <testcase name="leaveApi_POST_requests" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.041"/>
+  <testcase name="paymentsApi_POST_exceptionsReopen" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.034"/>
+  <testcase name="contentApi_GET_exports" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
+  <testcase name="getRoot" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="adminApi_POST_usersEmailReveal" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
+  <testcase name="getPortalRoot" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.041"/>
+  <testcase name="contentPortal_POST_items" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.069"/>
+  <testcase name="contentPortal_POST_importsExecute" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
+  <testcase name="bookingPortal_POST_attendanceScan" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
+  <testcase name="bookingApi_POST_reserve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.045"/>
+  <testcase name="adminApi_POST_webhooksDispatchById" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.019"/>
+  <testcase name="moderationApi_GET_qnaMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="bookingApi_POST_attachmentsUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
+  <testcase name="leaveApi_GET_formsDefinitions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
+  <testcase name="moderationApi_GET_targetMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="paymentsApi_GET_reconciliationExceptions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="leavePortal_POST_approvalApprove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
+  <testcase name="adminApi_POST_users" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.165"/>
+  <testcase name="paymentsPortal_POST_exceptionResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.039"/>
+  <testcase name="bookingApi_POST_reschedule" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
+  <testcase name="contentApi_POST_items" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.038"/>
+  <testcase name="moderationApi_POST_caseMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.027"/>
+  <testcase name="paymentsApi_POST_refunds" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.019"/>
+  <testcase name="adminApi_GET_webhooks" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="moderationApi_GET_reportsByReporter" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.013"/>
+  <testcase name="adminPortal_POST_roleAssign" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.041"/>
   <testcase name="moderationApi_POST_casesResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
-  <testcase name="paymentsPortal_POST_reconciliation" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.051"/>
-  <testcase name="leaveApi_POST_formsDefinitions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.037"/>
-  <testcase name="contentPortal_GET_importErrorsCsv" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.021"/>
-  <testcase name="moderationApi_POST_reportsResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="paymentsPortal_POST_exceptionInReview" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.044"/>
-  <testcase name="bookingApi_POST_noShowOverride" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
-  <testcase name="leavePortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="moderationApi_GET_caseMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
-  <testcase name="leaveApi_GET_requestAttachmentList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
-  <testcase name="moderationApi_GET_commentMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="getHealthUi" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="contentPortal_POST_itemRevision" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.038"/>
-  <testcase name="contentPortal_POST_itemRollback" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.039"/>
-  <testcase name="contentPortal_POST_importsPreview" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
-  <testcase name="contentPortal_POST_itemUnpublish" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
-  <testcase name="adminPortal_POST_roleRemove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.063"/>
-  <testcase name="leavePortal_POST_requestsLookup" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.028"/>
-  <testcase name="paymentsPortal_POST_refundApprove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.037"/>
-  <testcase name="bookingPortal_POST_reschedule" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
-  <testcase name="contentApi_GET_itemMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.013"/>
-  <testcase name="moderationApi_POST_targetsQna" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="deviceHmac_POST_paymentsCallback_withRealHmacSignature" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.109"/>
-  <testcase name="paymentsApi_GET_reconciliationRunExport" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.055"/>
-  <testcase name="moderationApi_POST_targetsPosts" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.038"/>
-  <testcase name="paymentsPortal_POST_tenders" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.051"/>
-  <testcase name="contentApi_POST_itemsRollback" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.035"/>
-  <testcase name="contentApi_POST_itemsUnpublish" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.033"/>
-  <testcase name="adminPortal_POST_userUpdate" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.049"/>
-  <testcase name="leaveApi_POST_requestsWithdraw" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
-  <testcase name="contentPortal_POST_itemMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.059"/>
-  <testcase name="bookingApi_POST_attendanceScan" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
+  <testcase name="paymentsPortal_POST_reconciliation" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.047"/>
+  <testcase name="leaveApi_POST_formsDefinitions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.042"/>
+  <testcase name="contentPortal_GET_importErrorsCsv" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
+  <testcase name="moderationApi_POST_reportsResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.021"/>
+  <testcase name="paymentsPortal_POST_exceptionInReview" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.039"/>
+  <testcase name="bookingApi_POST_noShowOverride" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.033"/>
+  <testcase name="leavePortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
+  <testcase name="moderationApi_GET_caseMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
+  <testcase name="leaveApi_GET_requestAttachmentList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
+  <testcase name="moderationApi_GET_commentMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="getHealthUi" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
+  <testcase name="contentPortal_POST_itemRevision" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.04"/>
+  <testcase name="contentPortal_POST_itemRollback" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.045"/>
+  <testcase name="contentPortal_POST_importsPreview" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
+  <testcase name="contentPortal_POST_itemUnpublish" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.038"/>
+  <testcase name="adminPortal_POST_roleRemove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.046"/>
+  <testcase name="leavePortal_POST_requestsLookup" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
+  <testcase name="paymentsPortal_POST_refundApprove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.05"/>
+  <testcase name="bookingPortal_POST_reschedule" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.036"/>
+  <testcase name="contentApi_GET_itemMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
+  <testcase name="moderationApi_POST_targetsQna" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
+  <testcase name="deviceHmac_POST_paymentsCallback_withRealHmacSignature" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.1"/>
+  <testcase name="paymentsApi_GET_reconciliationRunExport" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.019"/>
+  <testcase name="moderationApi_POST_targetsPosts" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.037"/>
+  <testcase name="paymentsPortal_POST_tenders" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.048"/>
+  <testcase name="contentApi_POST_itemsRollback" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.038"/>
+  <testcase name="contentApi_POST_itemsUnpublish" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
+  <testcase name="adminPortal_POST_userUpdate" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.045"/>
+  <testcase name="leaveApi_POST_requestsWithdraw" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.034"/>
+  <testcase name="contentPortal_POST_itemMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.056"/>
+  <testcase name="bookingApi_POST_attendanceScan" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
   <testcase name="contentApi_GET_itemMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
-  <testcase name="moderationApi_GET_commentMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="moderationApi_GET_postMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
-  <testcase name="bookingApi_GET_attachmentsList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
-  <testcase name="contentPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.033"/>
-  <testcase name="leavePortal_POST_formDefinitions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.041"/>
-  <testcase name="adminApi_POST_webhooks" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.018"/>
-  <testcase name="adminPortal_POST_users" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
-  <testcase name="adminApi_POST_deviceHmacRotate" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
-  <testcase name="adminPortal_POST_webhookCanDeliver" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="leavePortal_POST_requests" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="paymentsApi_POST_reconciliation" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.03"/>
-  <testcase name="paymentsApi_POST_exceptionsInReview" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.026"/>
-  <testcase name="contentApi_POST_importsExecute" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="bookingApi_GET_attachmentsDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.013"/>
-  <testcase name="leaveApi_POST_approvalsApprove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.016"/>
-  <testcase name="leaveApi_POST_requestsResubmit" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.029"/>
-  <testcase name="moderationApi_POST_reports" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.024"/>
-  <testcase name="paymentsApi_POST_callbacks" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
-  <testcase name="leavePortal_POST_approvalCorrection" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
-  <testcase name="moderationApi_GET_penalties" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.018"/>
-  <testcase name="getLogin" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.014"/>
+  <testcase name="moderationApi_GET_commentMediaDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
+  <testcase name="moderationApi_GET_postMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.019"/>
+  <testcase name="bookingApi_GET_attachmentsList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.018"/>
+  <testcase name="contentPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
+  <testcase name="leavePortal_POST_formDefinitions" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.04"/>
+  <testcase name="adminApi_POST_webhooks" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
+  <testcase name="adminPortal_POST_users" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.033"/>
+  <testcase name="adminApi_POST_deviceHmacRotate" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.024"/>
+  <testcase name="adminPortal_POST_webhookCanDeliver" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
+  <testcase name="leavePortal_POST_requests" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.035"/>
+  <testcase name="paymentsApi_POST_reconciliation" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.039"/>
+  <testcase name="paymentsApi_POST_exceptionsInReview" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.032"/>
+  <testcase name="contentApi_POST_importsExecute" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.018"/>
+  <testcase name="bookingApi_GET_attachmentsDownload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
+  <testcase name="leaveApi_POST_approvalsApprove" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.02"/>
+  <testcase name="leaveApi_POST_requestsResubmit" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
+  <testcase name="moderationApi_POST_reports" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.017"/>
+  <testcase name="paymentsApi_POST_callbacks" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.028"/>
+  <testcase name="leavePortal_POST_approvalCorrection" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
+  <testcase name="moderationApi_GET_penalties" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.015"/>
+  <testcase name="getLogin" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.013"/>
   <testcase name="leavePortal_POST_requestWithdraw" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.023"/>
-  <testcase name="contentApi_POST_itemsPublish" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.028"/>
-  <testcase name="contentApi_POST_mediaValidate" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.046"/>
-  <testcase name="moderationApi_POST_postMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.03"/>
-  <testcase name="adminPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.059"/>
-  <testcase name="moderationApi_GET_caseMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.037"/>
-  <testcase name="moderationApi_POST_communityPosts" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.031"/>
-  <testcase name="paymentsApi_POST_exceptionsResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
+  <testcase name="contentApi_POST_itemsPublish" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.027"/>
+  <testcase name="contentApi_POST_mediaValidate" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.025"/>
+  <testcase name="moderationApi_POST_postMediaUpload" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
+  <testcase name="adminPortal_GET" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.021"/>
+  <testcase name="moderationApi_GET_caseMediaList" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.022"/>
+  <testcase name="moderationApi_POST_communityPosts" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.03"/>
+  <testcase name="paymentsApi_POST_exceptionsResolve" classname="com.lexibridge.operations.integration.FullEndpointCoverageTest" time="0.027"/>
 </testsuite>

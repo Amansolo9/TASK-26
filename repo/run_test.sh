@@ -59,6 +59,13 @@ trap compose_down EXIT
 
 ensure_compose() {
   if [ "$compose_up" -eq 1 ]; then return; fi
+  # Some CI environments spin the compose stack up once before invoking
+  # run_test.sh (for a smoke check), which can leave the MySQL volume in a
+  # partially-migrated state if their attached process was killed mid-boot.
+  # Wipe the volume unconditionally so Flyway always runs against a pristine
+  # schema.
+  echo "[run_test] Resetting docker compose stack (volumes included)..."
+  docker compose down -v --remove-orphans >/dev/null 2>&1 || true
   echo "[run_test] Starting docker compose stack..."
   docker compose up --build -d
   compose_up=1
