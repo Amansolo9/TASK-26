@@ -1,6 +1,10 @@
 import { expect, test } from '@playwright/test'
 
-const pause = async (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
+// Pauses exist to produce a human-watchable recording of the walkthrough.
+// When running in CI (or any non-interactive environment) skip them to keep
+// wall-clock time reasonable - the test still exercises the same controls.
+const pause = async (ms: number) =>
+  process.env.CI ? Promise.resolve() : new Promise((resolve) => setTimeout(resolve, ms))
 
 test('major portal flows walkthrough (recorded, human-visible speed)', async ({ page }) => {
   test.setTimeout(12 * 60 * 1000)

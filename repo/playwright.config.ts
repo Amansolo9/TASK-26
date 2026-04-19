@@ -10,15 +10,17 @@ export default defineConfig({
   workers: 1,
   reporter: [['list'], ['html', { outputFolder: 'playwright-report', open: 'never' }]],
   use: {
-    baseURL: process.env.BASE_URL || 'http://localhost:8081',
-    headless: false,
+    baseURL: process.env.BASE_URL || process.env.APP_BASE_URL || 'http://localhost:8081',
+    // Default to headless so the suite runs cleanly in CI containers. Use the
+    // npm `e2e:headed` script (which passes --headed) to watch a real browser.
+    headless: true,
     video: 'on',
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     actionTimeout: 20 * 1000,
     navigationTimeout: 30 * 1000,
     launchOptions: {
-      slowMo: 450
+      slowMo: process.env.CI ? 0 : 450
     },
     viewport: { width: 1440, height: 900 }
   },

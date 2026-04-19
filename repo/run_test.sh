@@ -133,11 +133,17 @@ run_vitest() {
 run_playwright() {
   echo "[run_test] Phase: playwright"
   ensure_compose
+  # CI=1 tells the walkthrough spec to skip its human-pause steps (~170s of
+  # setTimeout calls that exist only for recording a demo video) and pins the
+  # baseURL to the compose stack. headless mode is hard-wired in
+  # playwright.config.ts so no X server is required inside the container.
   docker run --rm \
     --add-host=host.docker.internal:host-gateway \
     -v "$WIN_ROOT:/workspace" \
     -w /workspace \
+    -e CI=1 \
     -e APP_BASE_URL="http://${APP_HOST}:${APP_PORT}" \
+    -e BASE_URL="http://${APP_HOST}:${APP_PORT}" \
     "$PLAYWRIGHT_IMAGE" \
     sh -c "npm install --no-audit --no-fund && npx playwright test"
 }
